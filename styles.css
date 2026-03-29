@@ -388,6 +388,12 @@ img {
   font-weight: 600;
 }
 
+.areas-note {
+  margin-top: 28px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
 /* Footer */
 .footer {
   background: #222;
