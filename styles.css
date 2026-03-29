@@ -356,6 +356,38 @@ img {
   background: #444;
 }
 
+/* Areas We Serve */
+.areas {
+  background: #f5f3ef;
+  padding: 64px 0;
+  text-align: center;
+}
+
+.areas h2 {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.areas-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 24px;
+  padding: 0;
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.areas-list li::before {
+  content: "✓ ";
+  color: #1a7a3c;
+  font-weight: 600;
+}
+
 /* Footer */
 .footer {
   background: #222;
@@ -363,6 +395,17 @@ img {
   text-align: center;
   padding: 24px 0;
   font-size: 0.85rem;
+}
+
+.footer-address {
+  margin-top: 6px;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.footer-address a {
+  color: #aaa;
+  text-decoration: underline;
 }
 
 /* Responsive */
